@@ -91,6 +91,12 @@ section.aboutme img {
   margin-right: 50px;
 }
 
+/* footer */
+
+footer {
+  text-align: center;
+}
+
 /* JavaScript Hiding */
 .js-hide {
   display: none;
