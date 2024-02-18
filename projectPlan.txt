@@ -1,0 +1,7 @@
+Objective:
+To build a static website using HTML, CSS, JS which contain main page and a contact page. 
+
+1. Define End Result:
+    - HTML and CSS will be used to create this static website.
+    - using JS, atleast one interaction will be added.
+    - the website showcases our projects and contact information
