@@ -1,0 +1,102 @@
+/* .nobile-regular {
+  font-family: "Nobile", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* General Styles */
+body {
+  background-color: aliceblue;
+  color: black;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: "Kode Mono", monospace;
+  background-color: #13293d;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* main styles */
+
+main,
+footer {
+  font-family: "Antic Slab", serif;
+  font-weight: bold;
+}
+
+section,
+footer {
+  padding: 10px;
+  margin: 0 20px;
+}
+
+/* About Me */
+
+section.aboutme {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section.aboutme .text {
+  width: 70%;
+}
+
+section.aboutme img {
+  width: 250px;
+}
+
+/* Project Cards */
+#projects ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+#projects ul li {
+  padding-left: 40px;
+  background: url("hand-point-right-solid.svg") no-repeat left center;
+  background-size: 23px;
+}
+/* skills */
+
+#skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#skills ul li {
+  display: inline;
+}
+
+#skills ul li i {
+  border: 1px solid #13293d;
+  margin-right: 50px;
+}
+
+/* JavaScript Hiding */
+.js-hide {
+  display: none;
+}
