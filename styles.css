@@ -74,6 +74,25 @@ section.aboutme img {
   background-size: 23px;
 }
 
+/* input field */
+
+.input {
+  margin: 5px auto;
+}
+.input #newproject {
+  padding: 5px;
+}
+
+.input #submitbtn {
+  width: 60px;
+  padding: 8px;
+  background-color: #13293d;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 /* skills */
 
 #skills ul {
